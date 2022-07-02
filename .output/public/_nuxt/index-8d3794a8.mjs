@@ -1,0 +1,1 @@
+import o from"./Overview-56c97b1d.mjs";import{_ as t,c as a,d as c,a as s,o as n}from"./bootstrap-02094148.mjs";const r={},_={class:"container mx-auto bg-gray-300 p-8"},d=s("h1",{class:"font-bold text-gray-600 text-lg"},"Hello, Tailwind 3!",-1);function i(l,m){const e=o;return n(),a("div",_,[d,c(e)])}var x=t(r,[["render",i]]);export{x as default};

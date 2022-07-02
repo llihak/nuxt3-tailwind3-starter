@@ -1,0 +1,7 @@
+{
+  "date": "2022-07-02T19:36:52.655Z",
+  "preset": "server",
+  "commands": {
+    "preview": "node C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.output/server/index.mjs"
+  }
+}

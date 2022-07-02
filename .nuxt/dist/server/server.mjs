@@ -1,12 +1,12 @@
 
 // --------------------
-// Request: /Users/vega/dev/nuxt/hello-tailwind-3/node_modules/nuxt3/dist/app/entry
+// Request: C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/node_modules/nuxt3/dist/app/entry
 // Parents: 
 // - <entry> ($id_c757eb9e)
 // Dependencies: 
 // - /node_modules/nuxt3/dist/app/bootstrap.mjs ($id_fef466a9)
 // --------------------
-const $id_1cacbff3 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_59fff688 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const entry = true ? (ctx) => __vite_ssr_dynamic_import__('/node_modules/nuxt3/dist/app/bootstrap.mjs').then((m) => m.default(ctx)) : () => __vite_ssr_dynamic_import__('/node_modules/nuxt3/dist/app/bootstrap.mjs').then((m) => m.default);
 if (false) {
   entry();
@@ -19,27 +19,27 @@ __vite_ssr_exports__.default = entry;
 // --------------------
 // Request: /node_modules/nuxt3/dist/app/bootstrap.mjs
 // Parents: 
-// - /Users/vega/dev/nuxt/hello-tailwind-3/node_modules/nuxt3/dist/app/entry ($id_1cacbff3)
+// - C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/node_modules/nuxt3/dist/app/entry ($id_59fff688)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/css.mjs ($id_e56fd3d4)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs ($id_a4d8ac8d)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/root-component.mjs ($id_c59bdb44)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/app-component.mjs ($id_3ee0f2b0)
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/css.mjs ($id_185862a3)
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/plugins/server.mjs ($id_fa4c37c0)
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/root-component.mjs ($id_ad1e2e3e)
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/app-component.mjs ($id_838eb0f2)
 // --------------------
 const $id_fef466a9 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/index.mjs");
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/css.mjs");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/css.mjs");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/plugins/server.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/root-component.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/root-component.mjs");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/app-component.mjs");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/app-component.mjs");
 
 let entry;
 const plugins = __vite_ssr_import_1__.normalizePlugins(__vite_ssr_import_3__.default);
@@ -99,7 +99,9 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/nuxt3/dist/pages/runtime/nested-page.vue ($id_c268603a)
 // - /node_modules/nuxt3/dist/pages/runtime/page.vue ($id_10628d40)
 // - /node_modules/nuxt3/dist/pages/runtime/layout.mjs ($id_9b68c93f)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/layouts.mjs ($id_15c066b2)
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/layouts.mjs ($id_db346ec3)
+// - /pages/3for1.vue ($id_c0edfcfc)
+// - /pages/apac-summit.vue ($id_23707403)
 // - /node_modules/@heroicons/vue/outline/esm/AcademicCapIcon.js ($id_8e47f017)
 // - /node_modules/@heroicons/vue/outline/esm/AdjustmentsIcon.js ($id_58abcb04)
 // - /node_modules/@heroicons/vue/outline/esm/AnnotationIcon.js ($id_d6e47bca)
@@ -331,14 +333,22 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/@heroicons/vue/outline/esm/ZoomInIcon.js ($id_d44846b1)
 // - /node_modules/@heroicons/vue/outline/esm/ZoomOutIcon.js ($id_59b10e81)
 // - /pages/features.vue ($id_cdc7ed81)
+// - /pages/freebook.vue ($id_ccde8857)
+// - /components/Overview.vue ($id_a66d8cdb)
 // - /pages/index.vue ($id_cca58e97)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/components.mjs ($id_f92d0614)
+// - /pages/powertools.vue ($id_6bb27019)
+// - /pages/traders-summit.vue ($id_3b564411)
+// - /pages/trial.vue ($id_193f5d53)
+// - /pages/whats-new.vue ($id_cc38fca0)
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/components.mjs ($id_b36747e6)
+// - /components/OrderButton.vue ($id_db2dd0ba)
+// - /components/Products.vue ($id_17cc54ca)
 // - /node_modules/nuxt3/dist/app/components/nuxt-root.vue ($id_f8564e04)
 // - /node_modules/nuxt3/dist/pages/runtime/app.vue ($id_0851ff57)
 // Dependencies: 
 
 // --------------------
-const $id_60f0615f = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/vue/dist/vue.cjs.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/vue/dist/vue.cjs.js".') })
+const $id_60f0615f = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///C:/Users/khill/Documents/VUE/NUXT/Nuxt%203%20+%20Tailwind%20CSS%203%20Starter/nuxt3-tailwind3-starter/node_modules/vue/dist/vue.cjs.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/node_modules/vue/dist/vue.cjs.js".') })
 
 
 // --------------------
@@ -523,7 +533,7 @@ function defineGetter(obj, key, val) {
 // Dependencies: 
 
 // --------------------
-const $id_a2c811c4 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/hookable/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/hookable/dist/index.mjs".') })
+const $id_a2c811c4 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///C:/Users/khill/Documents/VUE/NUXT/Nuxt%203%20+%20Tailwind%20CSS%203%20Starter/nuxt3-tailwind3-starter/node_modules/hookable/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/node_modules/hookable/dist/index.mjs".') })
 
 
 // --------------------
@@ -648,7 +658,7 @@ Object.defineProperty(__vite_ssr_exports__, "legacyPlugin", { enumerable: true, 
 // Dependencies: 
 
 // --------------------
-const $id_39e12da7 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/unenv/runtime/mock/proxy.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/unenv/runtime/mock/proxy.mjs".') })
+const $id_39e12da7 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///C:/Users/khill/Documents/VUE/NUXT/Nuxt%203%20+%20Tailwind%20CSS%203%20Starter/nuxt3-tailwind3-starter/node_modules/unenv/runtime/mock/proxy.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/node_modules/unenv/runtime/mock/proxy.mjs".') })
 
 
 // --------------------
@@ -760,7 +770,7 @@ Object.defineProperty(__vite_ssr_exports__, "defineNuxtComponent", { enumerable:
 // Dependencies: 
 
 // --------------------
-const $id_f9a4a698 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/vue-router/dist/vue-router.cjs.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/vue-router/dist/vue-router.cjs.js".') })
+const $id_f9a4a698 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///C:/Users/khill/Documents/VUE/NUXT/Nuxt%203%20+%20Tailwind%20CSS%203%20Starter/nuxt3-tailwind3-starter/node_modules/vue-router/dist/vue-router.cjs.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/node_modules/vue-router/dist/vue-router.cjs.js".') })
 
 
 // --------------------
@@ -973,7 +983,7 @@ function generateKey(keys) {
 // Dependencies: 
 
 // --------------------
-const $id_fbf6dac3 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/murmurhash-es/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/murmurhash-es/dist/index.mjs".') })
+const $id_fbf6dac3 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///C:/Users/khill/Documents/VUE/NUXT/Nuxt%203%20+%20Tailwind%20CSS%203%20Starter/nuxt3-tailwind3-starter/node_modules/murmurhash-es/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/node_modules/murmurhash-es/dist/index.mjs".') })
 
 
 // --------------------
@@ -1062,7 +1072,7 @@ function writeServerCookie(res, name, value, opts = {}) {
 // Dependencies: 
 
 // --------------------
-const $id_f4975261 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/cookie-es/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/cookie-es/dist/index.mjs".') })
+const $id_f4975261 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///C:/Users/khill/Documents/VUE/NUXT/Nuxt%203%20+%20Tailwind%20CSS%203%20Starter/nuxt3-tailwind3-starter/node_modules/cookie-es/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/node_modules/cookie-es/dist/index.mjs".') })
 
 
 // --------------------
@@ -1072,7 +1082,7 @@ const $id_f4975261 = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // Dependencies: 
 
 // --------------------
-const $id_57d7ded6 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/h3/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/h3/dist/index.mjs".') })
+const $id_57d7ded6 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///C:/Users/khill/Documents/VUE/NUXT/Nuxt%203%20+%20Tailwind%20CSS%203%20Starter/nuxt3-tailwind3-starter/node_modules/h3/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/node_modules/h3/dist/index.mjs".') })
 
 
 // --------------------
@@ -1082,7 +1092,7 @@ const $id_57d7ded6 = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // Dependencies: 
 
 // --------------------
-const $id_03d15ecd = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/destr/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/destr/dist/index.mjs".') })
+const $id_03d15ecd = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///C:/Users/khill/Documents/VUE/NUXT/Nuxt%203%20+%20Tailwind%20CSS%203%20Starter/nuxt3-tailwind3-starter/node_modules/destr/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/node_modules/destr/dist/index.mjs".') })
 
 
 // --------------------
@@ -1111,13 +1121,13 @@ Object.defineProperty(__vite_ssr_exports__, "useRequestHeaders", { enumerable: t
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/css.mjs
+// Request: /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/css.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/app/bootstrap.mjs ($id_fef466a9)
 // Dependencies: 
 // - /assets/css/tailwind.css ($id_f75548e1)
 // --------------------
-const $id_e56fd3d4 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_185862a3 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/css/tailwind.css");
 ;
 }
@@ -1126,17 +1136,17 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/css/tailwind.cs
 // --------------------
 // Request: /assets/css/tailwind.css
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/css.mjs ($id_e56fd3d4)
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/css.mjs ($id_185862a3)
 // Dependencies: 
 
 // --------------------
 const $id_f75548e1 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/*\n! tailwindcss v3.0.8 | MIT License | https://tailwindcss.com\n*//*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n\n*,\n::before,\n::after {\n  box-sizing: border-box; /* 1 */\n  border-width: 0; /* 2 */\n  border-style: solid; /* 2 */\n  border-color: currentColor; /* 2 */\n}\n\n::before,\n::after {\n  --tw-content: '';\n}\n\n/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n*/\n\nhtml {\n  line-height: 1.5; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n  -moz-tab-size: 4; /* 3 */\n  -o-tab-size: 4;\n     tab-size: 4; /* 3 */\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; /* 4 */\n}\n\n/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\n\nbody {\n  margin: 0; /* 1 */\n  line-height: inherit; /* 2 */\n}\n\n/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\n\nhr {\n  height: 0; /* 1 */\n  color: inherit; /* 2 */\n  border-top-width: 1px; /* 3 */\n}\n\n/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\n\nabbr:where([title]) {\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n}\n\n/*\nRemove the default font size and weight for headings.\n*/\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/\n\na {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/*\nAdd the correct font weight in Edge and Safari.\n*/\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/*\n1. Use the user's configured `mono` font family by default.\n2. Correct the odd `em` font sizing in all browsers.\n*/\n\ncode,\nkbd,\nsamp,\npre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\n\n/*\nAdd the correct font size in all browsers.\n*/\n\nsmall {\n  font-size: 80%;\n}\n\n/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\n\ntable {\n  text-indent: 0; /* 1 */\n  border-color: inherit; /* 2 */\n  border-collapse: collapse; /* 3 */\n}\n\n/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  line-height: inherit; /* 1 */\n  color: inherit; /* 1 */\n  margin: 0; /* 2 */\n  padding: 0; /* 3 */\n}\n\n/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/\n\nbutton,\nselect {\n  text-transform: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\n\nbutton,\n[type='button'],\n[type='reset'],\n[type='submit'] {\n  -webkit-appearance: button; /* 1 */\n  background-color: transparent; /* 2 */\n  background-image: none; /* 2 */\n}\n\n/*\nUse the modern Firefox focus style for all focusable elements.\n*/\n\n:-moz-focusring {\n  outline: auto;\n}\n\n/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n\n:-moz-ui-invalid {\n  box-shadow: none;\n}\n\n/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\n\nprogress {\n  vertical-align: baseline;\n}\n\n/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n\n::-webkit-inner-spin-button,\n::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n[type='search'] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n\n/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n\n::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\n\nsummary {\n  display: list-item;\n}\n\n/*\nRemoves the default spacing and border for appropriate elements.\n*/\n\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre {\n  margin: 0;\n}\n\nfieldset {\n  margin: 0;\n  padding: 0;\n}\n\nlegend {\n  padding: 0;\n}\n\nol,\nul,\nmenu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/*\nPrevent resizing textareas horizontally by default.\n*/\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\n\ninput::-moz-placeholder, textarea::-moz-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\ninput:-ms-input-placeholder, textarea:-ms-input-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\ninput::placeholder,\ntextarea::placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\n/*\nSet the default cursor for buttons.\n*/\n\nbutton,\n[role=\"button\"] {\n  cursor: pointer;\n}\n\n/*\nMake sure disabled buttons don't get the pointer cursor.\n*/\n:disabled {\n  cursor: default;\n}\n\n/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\n\nimg,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject {\n  display: block; /* 1 */\n  vertical-align: middle; /* 2 */\n}\n\n/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/\n\nimg,\nvideo {\n  max-width: 100%;\n  height: auto;\n}\n\n/*\nEnsure the default browser behavior of the `hidden` attribute.\n*/\n\n[hidden] {\n  display: none;\n}\n.container {\n  width: 100%;\n}\n@media (min-width: 640px) {\n\n  .container {\n    max-width: 640px;\n  }\n}\n@media (min-width: 768px) {\n\n  .container {\n    max-width: 768px;\n  }\n}\n@media (min-width: 1024px) {\n\n  .container {\n    max-width: 1024px;\n  }\n}\n@media (min-width: 1280px) {\n\n  .container {\n    max-width: 1280px;\n  }\n}\n@media (min-width: 1536px) {\n\n  .container {\n    max-width: 1536px;\n  }\n}\n.absolute {\n  position: absolute;\n}\n.relative {\n  position: relative;\n}\n.mx-auto {\n  margin-left: auto;\n  margin-right: auto;\n}\n.mt-2 {\n  margin-top: 0.5rem;\n}\n.mt-4 {\n  margin-top: 1rem;\n}\n.mt-10 {\n  margin-top: 2.5rem;\n}\n.ml-16 {\n  margin-left: 4rem;\n}\n.flex {\n  display: flex;\n}\n.hidden {\n  display: none;\n}\n.h-12 {\n  height: 3rem;\n}\n.h-6 {\n  height: 1.5rem;\n}\n.w-12 {\n  width: 3rem;\n}\n.w-6 {\n  width: 1.5rem;\n}\n.max-w-7xl {\n  max-width: 80rem;\n}\n.max-w-2xl {\n  max-width: 42rem;\n}\n.items-center {\n  align-items: center;\n}\n.justify-center {\n  justify-content: center;\n}\n.space-y-10 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));\n}\n.rounded-md {\n  border-radius: 0.375rem;\n}\n.bg-white {\n  --tw-bg-opacity: 1;\n  background-color: rgb(255 255 255 / var(--tw-bg-opacity));\n}\n.bg-indigo-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(99 102 241 / var(--tw-bg-opacity));\n}\n.bg-gray-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(209 213 219 / var(--tw-bg-opacity));\n}\n.p-8 {\n  padding: 2rem;\n}\n.py-12 {\n  padding-top: 3rem;\n  padding-bottom: 3rem;\n}\n.px-4 {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n.text-base {\n  font-size: 1rem;\n  line-height: 1.5rem;\n}\n.text-3xl {\n  font-size: 1.875rem;\n  line-height: 2.25rem;\n}\n.text-xl {\n  font-size: 1.25rem;\n  line-height: 1.75rem;\n}\n.text-lg {\n  font-size: 1.125rem;\n  line-height: 1.75rem;\n}\n.font-semibold {\n  font-weight: 600;\n}\n.font-extrabold {\n  font-weight: 800;\n}\n.font-medium {\n  font-weight: 500;\n}\n.font-bold {\n  font-weight: 700;\n}\n.uppercase {\n  text-transform: uppercase;\n}\n.leading-8 {\n  line-height: 2rem;\n}\n.leading-6 {\n  line-height: 1.5rem;\n}\n.tracking-wide {\n  letter-spacing: 0.025em;\n}\n.tracking-tight {\n  letter-spacing: -0.025em;\n}\n.text-indigo-600 {\n  --tw-text-opacity: 1;\n  color: rgb(79 70 229 / var(--tw-text-opacity));\n}\n.text-gray-900 {\n  --tw-text-opacity: 1;\n  color: rgb(17 24 39 / var(--tw-text-opacity));\n}\n.text-gray-500 {\n  --tw-text-opacity: 1;\n  color: rgb(107 114 128 / var(--tw-text-opacity));\n}\n.text-white {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity));\n}\n.text-gray-600 {\n  --tw-text-opacity: 1;\n  color: rgb(75 85 99 / var(--tw-text-opacity));\n}\n@media (min-width: 640px) {\n\n  .sm\\:px-6 {\n    padding-left: 1.5rem;\n    padding-right: 1.5rem;\n  }\n\n  .sm\\:text-4xl {\n    font-size: 2.25rem;\n    line-height: 2.5rem;\n  }\n}\n@media (min-width: 768px) {\n\n  .md\\:grid {\n    display: grid;\n  }\n\n  .md\\:grid-cols-2 {\n    grid-template-columns: repeat(2, minmax(0, 1fr));\n  }\n\n  .md\\:gap-x-8 {\n    -moz-column-gap: 2rem;\n         column-gap: 2rem;\n  }\n\n  .md\\:gap-y-10 {\n    row-gap: 2.5rem;\n  }\n\n  .md\\:space-y-0 > :not([hidden]) ~ :not([hidden]) {\n    --tw-space-y-reverse: 0;\n    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));\n    margin-bottom: calc(0px * var(--tw-space-y-reverse));\n  }\n}\n@media (min-width: 1024px) {\n\n  .lg\\:mx-auto {\n    margin-left: auto;\n    margin-right: auto;\n  }\n\n  .lg\\:px-8 {\n    padding-left: 2rem;\n    padding-right: 2rem;\n  }\n\n  .lg\\:text-center {\n    text-align: center;\n  }\n}\n";
+__vite_ssr_exports__.default = "/*\n! tailwindcss v3.0.8 | MIT License | https://tailwindcss.com\n*//*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n\n*,\n::before,\n::after {\n  box-sizing: border-box; /* 1 */\n  border-width: 0; /* 2 */\n  border-style: solid; /* 2 */\n  border-color: currentColor; /* 2 */\n}\n\n::before,\n::after {\n  --tw-content: '';\n}\n\n/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n*/\n\nhtml {\n  line-height: 1.5; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n  -moz-tab-size: 4; /* 3 */\n  -o-tab-size: 4;\n     tab-size: 4; /* 3 */\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; /* 4 */\n}\n\n/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\n\nbody {\n  margin: 0; /* 1 */\n  line-height: inherit; /* 2 */\n}\n\n/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\n\nhr {\n  height: 0; /* 1 */\n  color: inherit; /* 2 */\n  border-top-width: 1px; /* 3 */\n}\n\n/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\n\nabbr:where([title]) {\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n}\n\n/*\nRemove the default font size and weight for headings.\n*/\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/\n\na {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/*\nAdd the correct font weight in Edge and Safari.\n*/\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/*\n1. Use the user's configured `mono` font family by default.\n2. Correct the odd `em` font sizing in all browsers.\n*/\n\ncode,\nkbd,\nsamp,\npre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\n\n/*\nAdd the correct font size in all browsers.\n*/\n\nsmall {\n  font-size: 80%;\n}\n\n/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\n\ntable {\n  text-indent: 0; /* 1 */\n  border-color: inherit; /* 2 */\n  border-collapse: collapse; /* 3 */\n}\n\n/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  line-height: inherit; /* 1 */\n  color: inherit; /* 1 */\n  margin: 0; /* 2 */\n  padding: 0; /* 3 */\n}\n\n/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/\n\nbutton,\nselect {\n  text-transform: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\n\nbutton,\n[type='button'],\n[type='reset'],\n[type='submit'] {\n  -webkit-appearance: button; /* 1 */\n  background-color: transparent; /* 2 */\n  background-image: none; /* 2 */\n}\n\n/*\nUse the modern Firefox focus style for all focusable elements.\n*/\n\n:-moz-focusring {\n  outline: auto;\n}\n\n/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n\n:-moz-ui-invalid {\n  box-shadow: none;\n}\n\n/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\n\nprogress {\n  vertical-align: baseline;\n}\n\n/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n\n::-webkit-inner-spin-button,\n::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n[type='search'] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n\n/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n\n::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\n\nsummary {\n  display: list-item;\n}\n\n/*\nRemoves the default spacing and border for appropriate elements.\n*/\n\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre {\n  margin: 0;\n}\n\nfieldset {\n  margin: 0;\n  padding: 0;\n}\n\nlegend {\n  padding: 0;\n}\n\nol,\nul,\nmenu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/*\nPrevent resizing textareas horizontally by default.\n*/\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\n\ninput::-moz-placeholder, textarea::-moz-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\ninput:-ms-input-placeholder, textarea:-ms-input-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\ninput::placeholder,\ntextarea::placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\n/*\nSet the default cursor for buttons.\n*/\n\nbutton,\n[role=\"button\"] {\n  cursor: pointer;\n}\n\n/*\nMake sure disabled buttons don't get the pointer cursor.\n*/\n:disabled {\n  cursor: default;\n}\n\n/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\n\nimg,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject {\n  display: block; /* 1 */\n  vertical-align: middle; /* 2 */\n}\n\n/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/\n\nimg,\nvideo {\n  max-width: 100%;\n  height: auto;\n}\n\n/*\nEnsure the default browser behavior of the `hidden` attribute.\n*/\n\n[hidden] {\n  display: none;\n}\r\n.container {\n  width: 100%;\n}\r\n@media (min-width: 640px) {\n\n  .container {\n    max-width: 640px;\n  }\n}\r\n@media (min-width: 768px) {\n\n  .container {\n    max-width: 768px;\n  }\n}\r\n@media (min-width: 1024px) {\n\n  .container {\n    max-width: 1024px;\n  }\n}\r\n@media (min-width: 1280px) {\n\n  .container {\n    max-width: 1280px;\n  }\n}\r\n@media (min-width: 1536px) {\n\n  .container {\n    max-width: 1536px;\n  }\n}\r\n.absolute {\n  position: absolute;\n}\r\n.relative {\n  position: relative;\n}\r\n.mx-auto {\n  margin-left: auto;\n  margin-right: auto;\n}\r\n.mt-2 {\n  margin-top: 0.5rem;\n}\r\n.mt-4 {\n  margin-top: 1rem;\n}\r\n.mt-10 {\n  margin-top: 2.5rem;\n}\r\n.ml-16 {\n  margin-left: 4rem;\n}\r\n.flex {\n  display: flex;\n}\r\n.grid {\n  display: grid;\n}\r\n.hidden {\n  display: none;\n}\r\n.h-12 {\n  height: 3rem;\n}\r\n.h-6 {\n  height: 1.5rem;\n}\r\n.w-full {\n  width: 100%;\n}\r\n.w-12 {\n  width: 3rem;\n}\r\n.w-6 {\n  width: 1.5rem;\n}\r\n.max-w-\\[417px\\] {\n  max-width: 417px;\n}\r\n.max-w-7xl {\n  max-width: 80rem;\n}\r\n.max-w-2xl {\n  max-width: 42rem;\n}\r\n.max-w-sm {\n  max-width: 24rem;\n}\r\n.max-w-\\[300px\\] {\n  max-width: 300px;\n}\r\n.scroll-py-4 {\n  scroll-padding-top: 1rem;\n  scroll-padding-bottom: 1rem;\n}\r\n.flex-col {\n  flex-direction: column;\n}\r\n.items-center {\n  align-items: center;\n}\r\n.justify-center {\n  justify-content: center;\n}\r\n.gap-4 {\n  gap: 1rem;\n}\r\n.space-y-4 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(1rem * var(--tw-space-y-reverse));\n}\r\n.space-y-10 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));\n}\r\n.rounded-md {\n  border-radius: 0.375rem;\n}\r\n.bg-white {\n  --tw-bg-opacity: 1;\n  background-color: rgb(255 255 255 / var(--tw-bg-opacity));\n}\r\n.bg-indigo-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(99 102 241 / var(--tw-bg-opacity));\n}\r\n.bg-gray-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(209 213 219 / var(--tw-bg-opacity));\n}\r\n.p-8 {\n  padding: 2rem;\n}\r\n.py-12 {\n  padding-top: 3rem;\n  padding-bottom: 3rem;\n}\r\n.px-4 {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\r\n.py-4 {\n  padding-top: 1rem;\n  padding-bottom: 1rem;\n}\r\n.pt-4 {\n  padding-top: 1rem;\n}\r\n.text-center {\n  text-align: center;\n}\r\n.text-base {\n  font-size: 1rem;\n  line-height: 1.5rem;\n}\r\n.text-3xl {\n  font-size: 1.875rem;\n  line-height: 2.25rem;\n}\r\n.text-xl {\n  font-size: 1.25rem;\n  line-height: 1.75rem;\n}\r\n.text-lg {\n  font-size: 1.125rem;\n  line-height: 1.75rem;\n}\r\n.text-2xl {\n  font-size: 1.5rem;\n  line-height: 2rem;\n}\r\n.font-semibold {\n  font-weight: 600;\n}\r\n.font-extrabold {\n  font-weight: 800;\n}\r\n.font-medium {\n  font-weight: 500;\n}\r\n.font-bold {\n  font-weight: 700;\n}\r\n.uppercase {\n  text-transform: uppercase;\n}\r\n.leading-8 {\n  line-height: 2rem;\n}\r\n.leading-6 {\n  line-height: 1.5rem;\n}\r\n.tracking-wide {\n  letter-spacing: 0.025em;\n}\r\n.tracking-tight {\n  letter-spacing: -0.025em;\n}\r\n.text-indigo-600 {\n  --tw-text-opacity: 1;\n  color: rgb(79 70 229 / var(--tw-text-opacity));\n}\r\n.text-gray-900 {\n  --tw-text-opacity: 1;\n  color: rgb(17 24 39 / var(--tw-text-opacity));\n}\r\n.text-gray-500 {\n  --tw-text-opacity: 1;\n  color: rgb(107 114 128 / var(--tw-text-opacity));\n}\r\n.text-white {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity));\n}\r\n.text-gray-600 {\n  --tw-text-opacity: 1;\n  color: rgb(75 85 99 / var(--tw-text-opacity));\n}\r\n@media (min-width: 640px) {\n\n  .sm\\:px-6 {\n    padding-left: 1.5rem;\n    padding-right: 1.5rem;\n  }\n\n  .sm\\:text-4xl {\n    font-size: 2.25rem;\n    line-height: 2.5rem;\n  }\n}\r\n@media (min-width: 768px) {\n\n  .md\\:grid {\n    display: grid;\n  }\n\n  .md\\:w-3\\/5 {\n    width: 60%;\n  }\n\n  .md\\:grid-cols-2 {\n    grid-template-columns: repeat(2, minmax(0, 1fr));\n  }\n\n  .md\\:flex-row {\n    flex-direction: row;\n  }\n\n  .md\\:gap-x-8 {\n    -moz-column-gap: 2rem;\n         column-gap: 2rem;\n  }\n\n  .md\\:gap-y-10 {\n    row-gap: 2.5rem;\n  }\n\n  .md\\:space-y-0 > :not([hidden]) ~ :not([hidden]) {\n    --tw-space-y-reverse: 0;\n    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));\n    margin-bottom: calc(0px * var(--tw-space-y-reverse));\n  }\n}\r\n@media (min-width: 1024px) {\n\n  .lg\\:mx-auto {\n    margin-left: auto;\n    margin-right: auto;\n  }\n\n  .lg\\:px-8 {\n    padding-left: 2rem;\n    padding-right: 2rem;\n  }\n\n  .lg\\:text-center {\n    text-align: center;\n  }\n}\r\n";
 }
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs
+// Request: /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/plugins/server.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/app/bootstrap.mjs ($id_fef466a9)
 // Dependencies: 
@@ -1145,9 +1155,9 @@ __vite_ssr_exports__.default = "/*\n! tailwindcss v3.0.8 | MIT License | https:/
 // - /node_modules/nuxt3/dist/meta/runtime/plugin.mjs ($id_9fd5f35e)
 // - /node_modules/nuxt3/dist/pages/runtime/router.mjs ($id_a4d6cb5b)
 // - /node_modules/@nuxt/nitro/dist/runtime/app/nitro.client.mjs ($id_7b587af2)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/components.mjs ($id_f92d0614)
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/components.mjs ($id_b36747e6)
 // --------------------
-const $id_a4d8ac8d = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_fa4c37c0 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/plugins/preload.server.mjs");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/meta/runtime/lib/vueuse-head.plugin.mjs");
@@ -1158,7 +1168,7 @@ const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt3/dis
 
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/@nuxt/nitro/dist/runtime/app/nitro.client.mjs");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/components.mjs");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/components.mjs");
 
 __vite_ssr_exports__.default = [
   __vite_ssr_import_0__.default,
@@ -1174,7 +1184,7 @@ __vite_ssr_import_1__.default,
 // --------------------
 // Request: /node_modules/nuxt3/dist/app/plugins/preload.server.mjs
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs ($id_a4d8ac8d)
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/plugins/server.mjs ($id_fa4c37c0)
 // Dependencies: 
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
 // --------------------
@@ -1197,7 +1207,7 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineNuxtPlugin((nuxtApp) 
 // --------------------
 // Request: /node_modules/nuxt3/dist/meta/runtime/lib/vueuse-head.plugin.mjs
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs ($id_a4d8ac8d)
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/plugins/server.mjs ($id_fa4c37c0)
 // Dependencies: 
 // - /node_modules/@vueuse/head/dist/index.mjs ($id_c032264e)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -1650,13 +1660,13 @@ Object.defineProperty(__vite_ssr_exports__, "useHead", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt3/dist/meta/runtime/plugin.mjs
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs ($id_a4d8ac8d)
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/plugins/server.mjs ($id_fa4c37c0)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt3/dist/meta/runtime/components.mjs ($id_94744df3)
 // - /node_modules/nuxt3/dist/meta/runtime/composables.mjs ($id_ca9295be)
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/meta.config.mjs ($id_4e81459e)
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/meta.config.mjs ($id_da97c7d2)
 // --------------------
 const $id_9fd5f35e = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -1667,7 +1677,7 @@ const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt3/dis
 
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/index.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/meta.config.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/meta.config.mjs");
 
 __vite_ssr_exports__.default = __vite_ssr_import_3__.defineNuxtPlugin((nuxtApp) => {
   __vite_ssr_import_2__.useMeta(__vite_ssr_import_4__.default.globalMeta);
@@ -1933,17 +1943,17 @@ Object.defineProperty(__vite_ssr_exports__, "useMeta", { enumerable: true, confi
 // Dependencies: 
 
 // --------------------
-const $id_852b06a2 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/@vue/shared/dist/shared.cjs.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/@vue/shared/dist/shared.cjs.js".') })
+const $id_852b06a2 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///C:/Users/khill/Documents/VUE/NUXT/Nuxt%203%20+%20Tailwind%20CSS%203%20Starter/nuxt3-tailwind3-starter/node_modules/@vue/shared/dist/shared.cjs.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/node_modules/@vue/shared/dist/shared.cjs.js".') })
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/meta.config.mjs
+// Request: /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/meta.config.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/meta/runtime/plugin.mjs ($id_9fd5f35e)
 // Dependencies: 
 
 // --------------------
-const $id_4e81459e = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_da97c7d2 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 __vite_ssr_exports__.default = {"globalMeta":{"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"}],"link":[],"style":[],"script":[]},"mixinKey":"created"};
 }
 
@@ -1951,7 +1961,7 @@ __vite_ssr_exports__.default = {"globalMeta":{"meta":[{"charset":"utf-8"},{"name
 // --------------------
 // Request: /node_modules/nuxt3/dist/pages/runtime/router.mjs
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs ($id_a4d8ac8d)
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/plugins/server.mjs ($id_fa4c37c0)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue-router/dist/vue-router.cjs.js ($id_f9a4a698)
@@ -1959,7 +1969,7 @@ __vite_ssr_exports__.default = {"globalMeta":{"meta":[{"charset":"utf-8"},{"name
 // - /node_modules/nuxt3/dist/pages/runtime/page.vue ($id_10628d40)
 // - /node_modules/nuxt3/dist/pages/runtime/layout.mjs ($id_9b68c93f)
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/routes.mjs ($id_f8d13406)
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4fbe062f)
 // --------------------
 const $id_a4d6cb5b = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -1974,7 +1984,7 @@ const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/nuxt3/dis
 
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/index.mjs");
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/routes.mjs");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/routes.mjs");
 
 __vite_ssr_exports__.default = __vite_ssr_import_5__.defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.component("NuxtNestedPage", __vite_ssr_import_2__.default);
@@ -2072,7 +2082,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/nuxt3/dist/pages/runtime/nested-page.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/node_modules/nuxt3/dist/pages/runtime/nested-page.vue"]]);
 }
 
 
@@ -2082,13 +2092,16 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 // - /node_modules/nuxt3/dist/pages/runtime/nested-page.vue ($id_c268603a)
 // - /node_modules/nuxt3/dist/pages/runtime/page.vue ($id_10628d40)
 // - /pages/features.vue ($id_cdc7ed81)
+// - /components/Overview.vue ($id_a66d8cdb)
 // - /pages/index.vue ($id_cca58e97)
+// - /pages/powertools.vue ($id_6bb27019)
+// - /pages/whats-new.vue ($id_cc38fca0)
 // - /node_modules/nuxt3/dist/app/components/nuxt-root.vue ($id_f8564e04)
 // - /node_modules/nuxt3/dist/pages/runtime/app.vue ($id_0851ff57)
 // Dependencies: 
 
 // --------------------
-const $id_b215fa1c = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/vue/server-renderer/index.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/vue/server-renderer/index.js".') })
+const $id_b215fa1c = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///C:/Users/khill/Documents/VUE/NUXT/Nuxt%203%20+%20Tailwind%20CSS%203%20Starter/nuxt3-tailwind3-starter/node_modules/vue/server-renderer/index.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/node_modules/vue/server-renderer/index.js".') })
 
 
 // --------------------
@@ -2096,8 +2109,18 @@ const $id_b215fa1c = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // Parents: 
 // - /node_modules/nuxt3/dist/pages/runtime/nested-page.vue ($id_c268603a)
 // - /node_modules/nuxt3/dist/pages/runtime/page.vue ($id_10628d40)
+// - /pages/3for1.vue ($id_c0edfcfc)
+// - /pages/apac-summit.vue ($id_23707403)
 // - /pages/features.vue ($id_cdc7ed81)
+// - /pages/freebook.vue ($id_ccde8857)
+// - /components/Overview.vue ($id_a66d8cdb)
 // - /pages/index.vue ($id_cca58e97)
+// - /pages/powertools.vue ($id_6bb27019)
+// - /pages/traders-summit.vue ($id_3b564411)
+// - /pages/trial.vue ($id_193f5d53)
+// - /pages/whats-new.vue ($id_cc38fca0)
+// - /components/OrderButton.vue ($id_db2dd0ba)
+// - /components/Products.vue ($id_17cc54ca)
 // - /node_modules/nuxt3/dist/app/components/nuxt-root.vue ($id_f8564e04)
 // - /node_modules/nuxt3/dist/pages/runtime/app.vue ($id_0851ff57)
 // Dependencies: 
@@ -2281,7 +2304,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/nuxt3/dist/pages/runtime/page.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/node_modules/nuxt3/dist/pages/runtime/page.vue"]]);
 }
 
 
@@ -2292,12 +2315,12 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 // - /node_modules/nuxt3/dist/pages/runtime/router.mjs ($id_a4d6cb5b)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/layouts.mjs ($id_15c066b2)
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/layouts.mjs ($id_db346ec3)
 // --------------------
 const $id_9b68c93f = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/layouts.mjs");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/layouts.mjs");
 
 __vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
   props: {
@@ -2324,13 +2347,13 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/layouts.mjs
+// Request: /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/layouts.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/pages/runtime/layout.mjs ($id_9b68c93f)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // --------------------
-const $id_15c066b2 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_db346ec3 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 __vite_ssr_exports__.default = {};
@@ -2338,37 +2361,149 @@ __vite_ssr_exports__.default = {};
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/routes.mjs
+// Request: /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/routes.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/pages/runtime/router.mjs ($id_a4d6cb5b)
 // Dependencies: 
+// - /pages/3for1.vue ($id_c0edfcfc)
+// - /pages/apac-summit.vue ($id_23707403)
 // - /pages/features.vue ($id_cdc7ed81)
+// - /pages/freebook.vue ($id_ccde8857)
 // - /pages/index.vue ($id_cca58e97)
+// - /pages/powertools.vue ($id_6bb27019)
+// - /pages/traders-summit.vue ($id_3b564411)
+// - /pages/trial.vue ($id_193f5d53)
+// - /pages/whats-new.vue ($id_cc38fca0)
 // --------------------
-const $id_f8d13406 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_4fbe062f = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 __vite_ssr_exports__.default = [
+  {
+    "name": "3for1",
+    "path": "/3for1",
+    "file": "C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/pages/3for1.vue",
+    "children": [],
+    "component": () => __vite_ssr_dynamic_import__('/pages/3for1.vue')
+  },
+  {
+    "name": "apac-summit",
+    "path": "/apac-summit",
+    "file": "C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/pages/apac-summit.vue",
+    "children": [],
+    "component": () => __vite_ssr_dynamic_import__('/pages/apac-summit.vue')
+  },
   {
     "name": "features",
     "path": "/features",
-    "file": "/Users/vega/dev/nuxt/hello-tailwind-3/pages/features.vue",
+    "file": "C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/pages/features.vue",
     "children": [],
     "component": () => __vite_ssr_dynamic_import__('/pages/features.vue')
   },
   {
+    "name": "freebook",
+    "path": "/freebook",
+    "file": "C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/pages/freebook.vue",
+    "children": [],
+    "component": () => __vite_ssr_dynamic_import__('/pages/freebook.vue')
+  },
+  {
     "name": "index",
     "path": "/",
-    "file": "/Users/vega/dev/nuxt/hello-tailwind-3/pages/index.vue",
+    "file": "C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/pages/index.vue",
     "children": [],
     "component": () => __vite_ssr_dynamic_import__('/pages/index.vue')
+  },
+  {
+    "name": "powertools",
+    "path": "/powertools",
+    "file": "C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/pages/powertools.vue",
+    "children": [],
+    "component": () => __vite_ssr_dynamic_import__('/pages/powertools.vue')
+  },
+  {
+    "name": "traders-summit",
+    "path": "/traders-summit",
+    "file": "C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/pages/traders-summit.vue",
+    "children": [],
+    "component": () => __vite_ssr_dynamic_import__('/pages/traders-summit.vue')
+  },
+  {
+    "name": "trial",
+    "path": "/trial",
+    "file": "C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/pages/trial.vue",
+    "children": [],
+    "component": () => __vite_ssr_dynamic_import__('/pages/trial.vue')
+  },
+  {
+    "name": "whats-new",
+    "path": "/whats-new",
+    "file": "C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/pages/whats-new.vue",
+    "children": [],
+    "component": () => __vite_ssr_dynamic_import__('/pages/whats-new.vue')
   }
 ];
 }
 
 
 // --------------------
+// Request: /pages/3for1.vue
+// Parents: 
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4fbe062f)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_c0edfcfc = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {}
+
+
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_0__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/3for1.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/pages/3for1.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/apac-summit.vue
+// Parents: 
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4fbe062f)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_23707403 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {}
+
+
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_0__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/apac-summit.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/pages/apac-summit.vue"]]);
+}
+
+
+// --------------------
 // Request: /pages/features.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/routes.mjs ($id_f8d13406)
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4fbe062f)
 // Dependencies: 
 // - /node_modules/@heroicons/vue/outline/esm/index.js ($id_d0ea4942)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -2449,7 +2584,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/vega/dev/nuxt/hello-tailwind-3/pages/features.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/pages/features.vue"]]);
 }
 
 
@@ -10572,24 +10707,99 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, value
 
 
 // --------------------
+// Request: /pages/freebook.vue
+// Parents: 
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4fbe062f)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_ccde8857 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {}
+
+
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_0__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/freebook.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/pages/freebook.vue"]]);
+}
+
+
+// --------------------
 // Request: /pages/index.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/routes.mjs ($id_f8d13406)
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4fbe062f)
 // Dependencies: 
+// - /components/Overview.vue ($id_a66d8cdb)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_cca58e97 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/Overview.vue");
 
 const _sfc_main = {}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_Overview = __vite_ssr_import_0__.default
+
+  _push(`<div${__vite_ssr_import_2__.ssrRenderAttrs(__vite_ssr_import_1__.mergeProps({ class: "container mx-auto bg-gray-300 p-8" }, _attrs))}><h1 class="font-bold text-gray-600 text-lg">Hello, Tailwind 3!</h1>`)
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_Overview, null, null, _parent))
+  _push(`</div>`)
+}
+
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/index.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/pages/index.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Overview.vue
+// Parents: 
+// - /pages/index.vue ($id_cca58e97)
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/components.mjs ($id_b36747e6)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_a66d8cdb = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+
+const _sfc_main = {
+
+}
+
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
 
-function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "container mx-auto bg-gray-300 p-8" }, _attrs))}><h1 class="font-bold text-gray-600 text-lg">Hello, Tailwind 3!</h1></div>`)
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "Overview flex flex-col md:flex-row" }, _attrs))}><div class="blurb flex flex-col md:w-3/5 space-y-4"><h1>MetaStock</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A possimus vel culpa blanditiis ullam dolores totam quia doloremque, eveniet quidem expedita consequatur enim quod vitae delectus illum maxime, distinctio quisquam? </p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A possimus vel culpa blanditiis ullam dolores totam quia doloremque, eveniet quidem expedita consequatur enim quod vitae delectus illum maxime, distinctio quisquam? </p><div class="buttons"><button>Learn more</button><button>What&#39;s New</button></div></div><div class="media md:2/5"><img src="https://www.metastock.com/images/w/MS-Montor-417px.png" alt="" class="w-full max-w-[417px]"></div></div>`)
 }
 
 
@@ -10598,19 +10808,185 @@ const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
   const ssrContext = __vite_ssr_import_2__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/index.vue")
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Overview.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/vega/dev/nuxt/hello-tailwind-3/pages/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/components/Overview.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/powertools.vue
+// Parents: 
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4fbe062f)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /pages/powertools.vue?vue&type=style&index=0&scoped=true&lang.css ($id_5225efbb)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_6bb27019 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+
+const _sfc_main = {
+  head: {
+    title: 'MetaStock PowerTools',
+    meta: [
+      {
+        name: 'description',
+        content: 'MetaStock gives you these powerful tools to help your trades'
+      }
+    ],
+    script: [
+      {
+        src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'
+      }
+    ],
+    link: [
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Roboto&display=swap'
+      }
+    ]
+  }
+}
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<section${__vite_ssr_import_0__.ssrRenderAttrs(_attrs)} data-v-55492ba2><div class="container mx-auto" data-v-55492ba2><header class="text-center py-4 space-y-4" data-v-55492ba2><h2 class="text-2xl font-bold" data-v-55492ba2>The MetaStock PowerTools: Power to the People</h2><p class="text-xl" data-v-55492ba2>The PowerTools include the Explorer, the System Tester, the Expert Adviser and the FORECASTER. They come standard in all versions of MetaStock, and are designed to help traders of all levels.</p></header><div class="powertools grid gap-4 md:grid-cols-2 px-4" data-v-55492ba2><div class="powertool flex flex-col" data-v-55492ba2><img src="https://www.metastock.com/images/i/TRADER-EOD.png" alt="" data-v-55492ba2><h3 data-v-55492ba2>&quot;Where do I start in a universe of instruments?&quot; </h3><p data-v-55492ba2>There are thousands of instruments out there. Moreover there are hundreds of systems you might want to use to trade them. How do you even begin to sort through the possibilities? How do you find the winners? Enter the MetaStock Explorer. The Explorer lets you use YOUR criteria to scan the markets and find the instruments that fit YOUR strategy.</p></div><div class="powertool flex flex-col" data-v-55492ba2><img src="https://www.metastock.com/images/i/TRADER-REALTIME.PNG" alt="" data-v-55492ba2><h3 data-v-55492ba2>&quot;How do I interpret the indicators on my chart?&quot;</h3><p data-v-55492ba2>Imagine having the input of industry professionals when and where you need it. That&#39;s what the MetaStock Expert Advisor is all about. You can display the industry&#39;s most popular indicators with correlating buy and sell signals. Expert commentary gives you specific information about the indicators and what triggered the signal. It&#39;s a great educational tool.</p></div><div class="powertool flex flex-col" data-v-55492ba2><img src="https://www.metastock.com/images/i/TRADER-FUNDAMENTAL.png" alt="" data-v-55492ba2><h3 data-v-55492ba2>&quot;How can I test and optimize my strategies?&quot;</h3><p data-v-55492ba2>Do you want to create, back-test, compare, and optimize your strategies BEFORE you risk money in the market. With the MetaStock System Tester you can. You can even test multiple instruments against multiple systems. By analyzing every trade that would have occurred historically, you build confidence in your system... something all traders need.</p></div><div class="powertool flex flex-col" data-v-55492ba2><img src="https://www.metastock.com/images/i/TRADER-FORECASTER.png" alt="" data-v-55492ba2><h3 data-v-55492ba2>&quot;How do I know where prices will go next?&quot;</h3><p data-v-55492ba2>You’ve analyzed the market and identified your trading opportunities, but where are prices likely to go?... and how long will it take to get there? What trading opportunities are there with this trade? The MetaStock FORECASTER uses patent-pending technology to help you see a more clear picture of tomorrow and set more precise stops and profit targets.</p></div></div></div></section>`)
+}
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/pages/powertools.vue?vue&type=style&index=0&scoped=true&lang.css");
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/powertools.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-55492ba2"],['__file',"C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/pages/powertools.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/powertools.vue?vue&type=style&index=0&scoped=true&lang.css
+// Parents: 
+// - /pages/powertools.vue ($id_6bb27019)
+// Dependencies: 
+
+// --------------------
+const $id_5225efbb = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+__vite_ssr_exports__.default = "\n.powertool[data-v-55492ba2] {\r\n\r\n    margin-left: auto;\r\n\r\n    margin-right: auto;\r\n\r\n    max-width: 24rem\n}\n.powertool[data-v-55492ba2] > :not([hidden]) ~ :not([hidden]) {\r\n\r\n    --tw-space-y-reverse: 0;\r\n\r\n    margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));\r\n\r\n    margin-bottom: calc(1rem * var(--tw-space-y-reverse))\n}\n.powertool h3[data-v-55492ba2] {\r\n\r\n    text-align: center;\r\n\r\n    font-weight: 700\n}\n.powertool img[data-v-55492ba2] {\r\n\r\n    width: 100%;\r\n\r\n    max-width: 300px;\r\n\r\n    align-self: center\n}\n.powertool p[data-v-55492ba2] {\r\n\r\n    font-size: 1rem;\r\n\r\n    line-height: 1.5rem\n}\r\n";
+}
+
+
+// --------------------
+// Request: /pages/traders-summit.vue
+// Parents: 
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4fbe062f)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_3b564411 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {}
+
+
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_0__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/traders-summit.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/pages/traders-summit.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/trial.vue
+// Parents: 
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4fbe062f)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_193f5d53 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {}
+
+
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_0__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/trial.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/pages/trial.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/whats-new.vue
+// Parents: 
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4fbe062f)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_cc38fca0 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+
+const _sfc_main = {
+
+}
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<section${__vite_ssr_import_0__.ssrRenderAttrs(_attrs)}><div class="container mx-auto"><h1>What&#39;s New in Metastock?</h1></div></section>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/whats-new.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/pages/whats-new.vue"]]);
 }
 
 
 // --------------------
 // Request: /node_modules/@nuxt/nitro/dist/runtime/app/nitro.client.mjs
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs ($id_a4d8ac8d)
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/plugins/server.mjs ($id_fa4c37c0)
 // Dependencies: 
 // - /node_modules/ohmyfetch/dist/index.mjs ($id_780217c4)
 // --------------------
@@ -10634,22 +11010,27 @@ __vite_ssr_exports__.default = () => {}
 // Dependencies: 
 
 // --------------------
-const $id_780217c4 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/ohmyfetch/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/ohmyfetch/dist/index.mjs".') })
+const $id_780217c4 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///C:/Users/khill/Documents/VUE/NUXT/Nuxt%203%20+%20Tailwind%20CSS%203%20Starter/nuxt3-tailwind3-starter/node_modules/ohmyfetch/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/node_modules/ohmyfetch/dist/index.mjs".') })
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/components.mjs
+// Request: /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/components.mjs
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs ($id_a4d8ac8d)
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/plugins/server.mjs ($id_fa4c37c0)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /components/OrderButton.vue ($id_db2dd0ba)
+// - /components/Overview.vue ($id_a66d8cdb)
+// - /components/Products.vue ($id_17cc54ca)
 // --------------------
-const $id_f92d0614 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_b36747e6 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 
 const components = {
-
+  'OrderButton': __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/components/OrderButton.vue').then(c => c.default || c)),
+  'Overview': __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/components/Overview.vue').then(c => c.default || c)),
+  'Products': __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/components/Products.vue').then(c => c.default || c))
 }
 
 __vite_ssr_exports__.default = function (nuxtApp) {
@@ -10663,13 +11044,69 @@ __vite_ssr_exports__.default = function (nuxtApp) {
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/root-component.mjs
+// Request: /components/OrderButton.vue
+// Parents: 
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/components.mjs ($id_b36747e6)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_db2dd0ba = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {}
+
+
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_0__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/OrderButton.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/components/OrderButton.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Products.vue
+// Parents: 
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/components.mjs ($id_b36747e6)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_17cc54ca = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {}
+
+
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_0__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Products.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/components/Products.vue"]]);
+}
+
+
+// --------------------
+// Request: /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/root-component.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/app/bootstrap.mjs ($id_fef466a9)
 // Dependencies: 
 // - /node_modules/nuxt3/dist/app/components/nuxt-root.vue ($id_f8564e04)
 // --------------------
-const $id_c59bdb44 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_ad1e2e3e = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/components/nuxt-root.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -10679,7 +11116,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt3/dist/app/components/nuxt-root.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/root-component.mjs ($id_c59bdb44)
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/root-component.mjs ($id_ad1e2e3e)
 // Dependencies: 
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -10730,18 +11167,18 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/nuxt3/dist/app/components/nuxt-root.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/node_modules/nuxt3/dist/app/components/nuxt-root.vue"]]);
 }
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/app-component.mjs
+// Request: /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/app-component.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/app/bootstrap.mjs ($id_fef466a9)
 // Dependencies: 
 // - /node_modules/nuxt3/dist/pages/runtime/app.vue ($id_0851ff57)
 // --------------------
-const $id_3ee0f2b0 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_838eb0f2 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/pages/runtime/app.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -10751,7 +11188,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt3/dist/pages/runtime/app.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/app-component.mjs ($id_3ee0f2b0)
+// - /@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/app-component.mjs ($id_838eb0f2)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -10782,12 +11219,12 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/nuxt3/dist/pages/runtime/app.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/node_modules/nuxt3/dist/pages/runtime/app.vue"]]);
 }
 
 
 const __modules__ = {
- '/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/nuxt3/dist/app/entry': $id_1cacbff3,
+ 'C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/node_modules/nuxt3/dist/app/entry': $id_59fff688,
  '/node_modules/nuxt3/dist/app/bootstrap.mjs': $id_fef466a9,
  '/node_modules/vue/dist/vue.cjs.js': $id_60f0615f,
  '/node_modules/nuxt3/dist/app/index.mjs': $id_d8c2af0f,
@@ -10808,9 +11245,9 @@ const __modules__ = {
  '/node_modules/h3/dist/index.mjs': $id_57d7ded6,
  '/node_modules/destr/dist/index.mjs': $id_03d15ecd,
  '/node_modules/nuxt3/dist/app/composables/ssr.mjs': $id_4d0dc923,
- '/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/css.mjs': $id_e56fd3d4,
+ '/@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/css.mjs': $id_185862a3,
  '/assets/css/tailwind.css': $id_f75548e1,
- '/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs': $id_a4d8ac8d,
+ '/@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/plugins/server.mjs': $id_fa4c37c0,
  '/node_modules/nuxt3/dist/app/plugins/preload.server.mjs': $id_b9f3c557,
  '/node_modules/nuxt3/dist/meta/runtime/lib/vueuse-head.plugin.mjs': $id_cbe5172d,
  '/node_modules/@vueuse/head/dist/index.mjs': $id_c032264e,
@@ -10818,15 +11255,17 @@ const __modules__ = {
  '/node_modules/nuxt3/dist/meta/runtime/components.mjs': $id_94744df3,
  '/node_modules/nuxt3/dist/meta/runtime/composables.mjs': $id_ca9295be,
  '/node_modules/@vue/shared/dist/shared.cjs.js': $id_852b06a2,
- '/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/meta.config.mjs': $id_4e81459e,
+ '/@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/meta.config.mjs': $id_da97c7d2,
  '/node_modules/nuxt3/dist/pages/runtime/router.mjs': $id_a4d6cb5b,
  '/node_modules/nuxt3/dist/pages/runtime/nested-page.vue': $id_c268603a,
  '/node_modules/vue/server-renderer/index.js': $id_b215fa1c,
  '/@id/plugin-vue:export-helper': $id_bbb863c1,
  '/node_modules/nuxt3/dist/pages/runtime/page.vue': $id_10628d40,
  '/node_modules/nuxt3/dist/pages/runtime/layout.mjs': $id_9b68c93f,
- '/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/layouts.mjs': $id_15c066b2,
- '/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/routes.mjs': $id_f8d13406,
+ '/@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/layouts.mjs': $id_db346ec3,
+ '/@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/routes.mjs': $id_4fbe062f,
+ '/pages/3for1.vue': $id_c0edfcfc,
+ '/pages/apac-summit.vue': $id_23707403,
  '/pages/features.vue': $id_cdc7ed81,
  '/node_modules/@heroicons/vue/outline/esm/index.js': $id_d0ea4942,
  '/node_modules/@heroicons/vue/outline/esm/AcademicCapIcon.js': $id_8e47f017,
@@ -11059,13 +11498,22 @@ const __modules__ = {
  '/node_modules/@heroicons/vue/outline/esm/XIcon.js': $id_0fe8edd1,
  '/node_modules/@heroicons/vue/outline/esm/ZoomInIcon.js': $id_d44846b1,
  '/node_modules/@heroicons/vue/outline/esm/ZoomOutIcon.js': $id_59b10e81,
+ '/pages/freebook.vue': $id_ccde8857,
  '/pages/index.vue': $id_cca58e97,
+ '/components/Overview.vue': $id_a66d8cdb,
+ '/pages/powertools.vue': $id_6bb27019,
+ '/pages/powertools.vue?vue&type=style&index=0&scoped=true&lang.css': $id_5225efbb,
+ '/pages/traders-summit.vue': $id_3b564411,
+ '/pages/trial.vue': $id_193f5d53,
+ '/pages/whats-new.vue': $id_cc38fca0,
  '/node_modules/@nuxt/nitro/dist/runtime/app/nitro.client.mjs': $id_7b587af2,
  '/node_modules/ohmyfetch/dist/index.mjs': $id_780217c4,
- '/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/components.mjs': $id_f92d0614,
- '/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/root-component.mjs': $id_c59bdb44,
+ '/@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/components.mjs': $id_b36747e6,
+ '/components/OrderButton.vue': $id_db2dd0ba,
+ '/components/Products.vue': $id_17cc54ca,
+ '/@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/root-component.mjs': $id_ad1e2e3e,
  '/node_modules/nuxt3/dist/app/components/nuxt-root.vue': $id_f8564e04,
- '/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/app-component.mjs': $id_3ee0f2b0,
+ '/@id/__x00__virtual:C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/.nuxt/app-component.mjs': $id_838eb0f2,
  '/node_modules/nuxt3/dist/pages/runtime/app.vue': $id_0851ff57
 }
 
@@ -11143,4 +11591,4 @@ async function __instantiateModule__(url, urlStack) {
 }
 
 
-export default await __ssrLoadModule__('/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/nuxt3/dist/app/entry')
+export default await __ssrLoadModule__('C:/Users/khill/Documents/VUE/NUXT/Nuxt 3 + Tailwind CSS 3 Starter/nuxt3-tailwind3-starter/node_modules/nuxt3/dist/app/entry')
