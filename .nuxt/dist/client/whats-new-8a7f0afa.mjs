@@ -1,1 +1,0 @@
-import{_ as e,c as s,o,a as t}from"./bootstrap-02094148.mjs";const a={},c=t("div",{class:"container mx-auto"},[t("h1",null,"What's New in Metastock?")],-1),n=[c];function r(_,i,l,p,d,u){return o(),s("section",null,n)}var h=e(a,[["render",r]]);export{h as default};

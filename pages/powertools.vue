@@ -7,8 +7,8 @@
           FORECASTER. They come
           standard in all versions of MetaStock, and are designed to help traders of all levels.</p>
       </header>
-      <div class="powertools grid gap-4 md:grid-cols-2 px-4">
-        <div class="powertool flex flex-col">
+      <div class="powertools  grid gap-4 md:grid-cols-2 px-4">
+        <div class="powertool explorer flex flex-col">
           <img
             src="https://www.metastock.com/images/i/TRADER-EOD.png"
             alt=""
@@ -19,8 +19,16 @@
             to trade them. How do you even begin to sort through the possibilities? How do you find the winners? Enter
             the MetaStock Explorer. The Explorer lets you use YOUR criteria to scan the markets and find the instruments
             that fit YOUR strategy.</p>
+          <div class="video bg-blue-500 text-white text-center max-w-[90%]  rounded-md shadow-md px-8 py-4 ">
+            <a
+              href="/video-powertools-explorer"
+              target="_blank"
+              class="small button expand"
+            >Watch the Explorer
+              Video</a>
+          </div>
         </div>
-        <div class="powertool flex flex-col">
+        <div class="powertool advisor flex flex-col">
           <img
             src="https://www.metastock.com/images/i/TRADER-REALTIME.PNG"
             alt=""
@@ -30,8 +38,16 @@
             Expert Advisor is all about. You can display the industry's most popular indicators with correlating buy and
             sell signals. Expert commentary gives you specific information about the indicators and what triggered the
             signal. It's a great educational tool.</p>
+          <div class="video ">
+            <a
+              href="/video-powertools-expertadvisor"
+              target="_blank"
+              class="small button expand"
+            >Watch the Expert
+              Advisor Video</a>
+          </div>
         </div>
-        <div class="powertool flex flex-col">
+        <div class="powertool tester flex flex-col">
           <img
             src="https://www.metastock.com/images/i/TRADER-FUNDAMENTAL.png"
             alt=""
@@ -41,8 +57,16 @@
             market. With the MetaStock System Tester you can. You can even test multiple instruments against multiple
             systems. By analyzing every trade that would have occurred historically, you build confidence in your
             system... something all traders need.</p>
+          <div class="video ">
+            <a
+              href="/video-powertools-systemtester"
+              target="_blank"
+              class="small button expand"
+            >Watch the System
+              Tester Video</a>
+          </div>
         </div>
-        <div class="powertool flex flex-col">
+        <div class="powertool forecaster flex flex-col">
           <img
             src="https://www.metastock.com/images/i/TRADER-FORECASTER.png"
             alt=""
@@ -52,6 +76,14 @@
             and how long will it take to get there? What trading opportunities are there with this trade? The MetaStock
             FORECASTER uses patent-pending technology to help you see a more clear picture of tomorrow and set more
             precise stops and profit targets.</p>
+          <div class="video ">
+            <a
+              href="/Video-Forecaster"
+              target="_blank"
+              class="small button expand"
+            >Watch the FORECASTER
+              Video</a>
+          </div>
 
 
         </div>
@@ -70,17 +102,7 @@ export default {
         content: 'MetaStock gives you these powerful tools to help your trades'
       }
     ],
-    script: [
-      {
-        src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'
-      }
-    ],
-    link: [
-      {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Roboto&display=swap'
-      }
-    ]
+
   }
 }
 </script>
